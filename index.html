@@ -1,31 +1,56 @@
 <!DOCTYPE html>
 <html lang="es-Es">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Frutas & Frutos</title>
-        <link href="./assets/css/normalize.css" rel="stylesheet" />
-        <link href="./assets/css/reset.css" rel="stylesheet" />
-        <link href="./assets/css/cabecera.css" rel="stylesheet" />
-        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
-        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
-        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
-    </head>
-    <body>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Fruty Box</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/cabecera.css" rel="stylesheet" />
+    <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+    <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+    <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+    <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+    <link href="./assets/css/banner/banner-imagen.css" rel="stylesheet" />
+    <link href="./assets/css/banner/banner-titulo.css" rel="stylesheet" />
+    <link href="./assets/css/sobre/sobre.css" rel="stylesheet" />
+    <link href="./assets/css/sobre/sobre-titulo.css" rel="stylesheet" />
+    <link href="./assets/css/sobre/sobre-descripcion.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <main>
         <header class="cabecera">
-            <img src="/assets/img/logo.jpg" alt="Logo Frutas & Frutos" class="logo">
+            <img src="/assets/img/logo2.png" alt="Logo Fruty Box" class="logo">
             <nav class="menu">
-                <ul class="menu-lista">
-                    <li class="menu-item"><a class="menu-link activo"href="#">INICIO</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">RECETAS</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">QUIENES SOMOS</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">CONTACTO</a></li>
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link activo" href="#">INICIO</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">RECETAS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">QUIENES SOMOS</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">CONTACTO</a></li>
                 </ul>
             </nav>
-          
         </header>
-    </body>
-    
+        <section class="banner">
+            <img src="/assets/img/banner.jpg" alt="banner" class="banner__imagen">
+            <h2 class="banner__titulo">Todas las frutas <br> en la puerta de tu casa</h2>
+        </section>
+        <section class="sobre">
+            <h2 class="sobre__titulo">Caja de frutas con recetas <br>para econominzar y ganar salud</h2>
+            <p class="sobre__descripcion">Nuestras recetas de frutas te ayudan a aprovechar mejor los alimentos,
+                econominzar, ganar tiempo y practicidad, recibe semanalmente una caja llena de deliciosas frutas y 15
+                diferentes recetas para que realices con ellas delicosos snacks, aperitivos o comidas saludables para
+                evitar esos antojos malos.</p>
+        </section>
+        
+
+
+
+    </main>
+</body>
+
 </html>

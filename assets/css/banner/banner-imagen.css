@@ -1,0 +1,21 @@
+.banner__imagen{
+    width: 100%;
+    height: calc(70vh - 72px);
+}
+
+@media screen and (max-width: 1024px){
+
+    .banner__imagen{
+        height: initial;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
+    .banner__imagen{
+        height: calc(30vh - 72px);
+        width: 100%;
+    }
+}
