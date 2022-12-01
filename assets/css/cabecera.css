@@ -10,3 +10,17 @@
     width: 80px;
     padding-bottom: .3rem;
 }
+@media screen and (min-widht: 0) {
+    .cabecera{
+        justify-content: center;
+        padding: 0 1rem;
+    }
+    
+}
+@media screen and (min-widht: 600px) {
+    .cabecera{
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+    
+}

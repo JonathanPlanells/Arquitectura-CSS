@@ -1,21 +1,23 @@
 .sobre__descripcion{
     color: #595959;
-    font-size: 1.5rem;
+    line-height: 40px;
     font-weight: 100;
     margin-top: 40px;
+    
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .sobre__descripcion{
         margin: 40px auto;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         width: 100%;
     }
 
 }
+
 @media screen and (max-width: 600px) {
     .sobre__descripcion{
-        line-height: inherit;
+        line-height: 30px;
         font-size: 1rem;
         width: inherit;
         margin-top: 30px;

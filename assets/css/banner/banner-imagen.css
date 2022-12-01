@@ -1,18 +1,28 @@
 .banner__imagen{
     width: 100%;
-    height: calc(70vh - 72px);
+    
+    background: url("../../img/banner.jpg") no-repeat center / cover;
 }
 
-@media screen and (max-width: 1024px){
+
+
+@media screen and (min-width: 0){
 
     .banner__imagen{
-        height: initial;
+        height: calc(70vh - 51px);
         width: 100%;
     }
 }
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1024px){
+
+    .banner__imagen{
+        height: calc(70vh - 72px);
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px){
 
     .banner__imagen{
         height: calc(30vh - 72px);

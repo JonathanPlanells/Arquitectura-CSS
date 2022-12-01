@@ -2,33 +2,41 @@
     width: 80%;
     color: #fdfdfd;
     font-family: Pacifico, cursive;
-    font-size: 5.0625rem;
     position: absolute;
     left: 50%;
     text-align: center;
-    top: 40%;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
     transform: translate(-50%, -50%);
-    line-height: 120px;
+   
 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 0){
+
     .banner__titulo{
+        font-size: 2rem;
         top: 20%;
+        line-height: 50px;
+
+    }
+}
+@media screen and (min-width: 768px){
+
+    .banner__titulo{
         font-size: 4rem;
-        width: 80%;
-        line-height: 90px;
-    }
+        top: 35%;
+        line-height: 120px;
 
+    }
 }
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 1024px) {
     .banner__titulo{
-        top: 20%;
-        font-size: 1.5rem;
-        width: 60%;
-        line-height: 40px;
+        top: 40%;
+        font-size: 5.0625rem;
+        width: 80%;
+        line-height: 130px;
     }
 
 }
+
 
